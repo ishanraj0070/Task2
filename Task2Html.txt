@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="s.css">
+</head>
+<body>
+    <div class="container">
+        <h1>To Do List</h1>
+        <h4>OctaNet Software Services Bhubaneswar, India</h4>
+        <br>
+        <div class="input-container">
+            <input type="text" id="taskInput" placeholder="Add a new task">
+            <button id="addTask">Send</button>
+        </div>
+        <ul id="taskList">
+            
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+/* Reset some default styles */
+body, h1, h2, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0e2b31;
+}
+
+header {
+    background-image: url('header-bg.jpg');
+    background-size: cover;
+    text-align: center;
+    color: #b4c994;
+    padding: 100px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #bcd896;
+    font-weight: bold;
+}
+
+.content {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.content-box {
+    background-color: #d57171;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.image {
+    margin: 10px;
+}
+
+.image img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #d85959;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #333;
+    color: #915d5d;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #ea7171;
+    text-align: center;
+    padding: 10px 0;
+}
